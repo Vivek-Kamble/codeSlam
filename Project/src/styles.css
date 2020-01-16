@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(7, 2, 2);
+    position: fixed;
+}
+
+.logo {
+    height: 80px;
+    width: 20%;
+    margin-left: 10%;
+    /* background-color: yellow; */
+    display: inline-block;
+}
+
+.navbar {
+    height: 80px;
+    width: 50%;
+    float: right;
+    /* background-color: yellow; */
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    height: 70px;
+    width: 20%;
+    /* background-color: red; */
+    float: left;
+    text-align: center;
+    padding: 40px;
+    font-family: Candara;
+    font-size: 20px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.navbar ul li:hover {
+    color: rgb(201, 76, 92);
+    transition: .5s;
+}
+
+.banner_one {
+    height: 100vh;
+    background-color: gray;
+    width: 100%;
+}
+
+.introduction {
+    background-image: url('assets/intro.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

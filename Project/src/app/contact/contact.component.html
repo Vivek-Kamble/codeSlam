@@ -1,0 +1,20 @@
+
+   <div style="height: 100px;"></div>
+   <div style="width: 80%;margin-left: 10%;">
+    <form #f="ngForm" (ngSubmit)="addProduct(f)">
+        <div>
+            <input class="inp" type="text" minlength="3" placeholder="Enter Name" pattern="[A-Za-z]*$" ngModel name="fname" #fname="ngModel" required>
+        </div>
+        
+        <div>
+            <input class="inp" type="text" placeholder="Enter lastname" ngModel name="lname" #lname="ngModel" required>
+        </div>
+       
+        <div >
+            <input class="inp" type="text" placeholder="Enter email" ngModel name="email" #email="ngModel" required>
+        </div>        
+        
+        <button [disabled]="f.invalid">send</button>
+    </form>
+    
+   </div>

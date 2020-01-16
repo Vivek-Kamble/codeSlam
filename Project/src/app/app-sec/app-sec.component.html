@@ -1,0 +1,23 @@
+<div style="height: 100px;"></div>
+<div>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Movie Name</th>
+            <th>Plot</th>
+            <th>Genre</th>
+        </tr>
+        <tbody>
+            <tr *ngFor="let item of datareceived;index as i">
+                <td>{{i+1}}</td>
+                <td>{{ item.Title}}</td>
+                <td>{{ item.Plot}}</td>
+    
+                <td>{{ item.Genre}}</td>
+            </tr>
+        </tbody>
+    
+    </table>
+
+    <!-- {{datareceived[1].id}} -->
+</div>
