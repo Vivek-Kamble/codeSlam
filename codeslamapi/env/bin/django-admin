@@ -1,4 +1,4 @@
-#!/home/vivek/Desktop/codeSlam/codeslamapi/env/bin/python2
+#!/home/vivek/Desktop/codeSlam/codeslamapi/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

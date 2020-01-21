@@ -1,4 +1,4 @@
-#!/home/vivek/Desktop/codeSlam/codeslamapi/env/bin/python2
+#!/home/vivek/Desktop/codeSlam/codeslamapi/env/bin/python
 from django.core import management
 
 if __name__ == "__main__":
